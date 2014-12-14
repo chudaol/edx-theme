@@ -9,7 +9,7 @@
 //  Color variables (from Stanford palette unless noted)
 //-----------------
 
-//@import "fonts.css";
+@import "../themes/edera-theme/css/fonts.css";
 
 //Main Color Variables
 $main-color: rgb(250,170,0);
@@ -187,7 +187,7 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('../themes/edera-theme/static/images/cover.png');
+$homepage-bg-image: url('../themes/edera-theme/images/cover.png');
 
 $login-banner-image: none;
 $register-banner-image: none;
