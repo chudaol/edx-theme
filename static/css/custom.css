@@ -1,3 +1,6 @@
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart {
   background-image: none;
 }
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta a:hover, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a:visited, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a:focus {
+  background-image: none;
+}
