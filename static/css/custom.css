@@ -650,6 +650,7 @@ h2 {
 .wrapper-footer .container {
   width: 1000px;
   font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+  padding: 0 !important;
 }
 
 .wrapper-footer .container .col {
@@ -691,6 +692,7 @@ h2 {
   line-height: 17px;
   color: #eee;
   margin-top: 0;
+  font-family: inherit;
 }
 #page_footer .col ul {
   margin: 8px 0;
