@@ -643,6 +643,25 @@ h2 {
   font-weight: normal;
   margin: 0 auto 50px;
 }
+.wrapper-footer {
+  padding: 0 !important;
+}
+
+.wrapper-footer .container {
+  width: 1000px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.wrapper-footer .container .col {
+  border: 0 !important;
+  box-shadow: 0 !important;
+  background: transparent !important;
+  text-align: left;
+}
+
+.wrapper-footer .container .col span {
+  color: inherit !important;
+}
 #page_footer {
   background-color: #323232;
   color: #fff;
