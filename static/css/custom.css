@@ -108,7 +108,7 @@ h2,
   height: 40px;
   width: 48px;
   background-size: 48px 40px;
-  background-image: url("../images/edera_logo.png");
+  background-image: url("/static/images/edera_logo.png");
   background-repeat: no-repeat;
   position: absolute;
   top: 8px;
@@ -210,7 +210,7 @@ h2,
   position: relative;
   padding-top: 100px;
   background-color: #333;
-  background-image: url("../images/welcome_bg_laptop.jpg");
+  background-image: url("/static/images/welcome_bg_laptop.jpg");
   background-size: cover;
   background-position: center right;
   color: #fff;
@@ -711,7 +711,7 @@ h2 {
   bottom: 0;
 }
 .heading {
-  background-image: url("../images/welcome_bg_laptop.jpg");
+  background-image: url("/static/images/welcome_bg_laptop.jpg");
   background-size: cover;
   background-position: bottom right;
   color: #fff;
@@ -780,47 +780,6 @@ h2 {
 }
 #about_project p + .h3 {
   margin-top: 40px;
-}
-.modal {
-  position: fixed;
-  top: 60px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 99;
-  display: none;
-}
-.modal .modal_content {
-  width: 600px;
-  height: 400px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -200px 0 0 -300px;
-  background-color: #fff;
-  box-shadow: 0 2px 1px rgba(34, 25, 25, 0.1);
-}
-.modal .close {
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 17px;
-  height: 17px;
-  background-image: url("../images/close.png");
-  background-repeat: no-repeat;
-  background-size: 17px;
-  cursor: pointer;
-}
-.modal .video {
-  width: 560px;
-  height: 315px;
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
 }
 /* ==========================================================================
  Media Queries
