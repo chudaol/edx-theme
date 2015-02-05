@@ -18,11 +18,11 @@ input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disab
 .modal .inner-wrapper .close-modal, .leanModal_box .inner-wrapper .close-modal {
   z-index: 15;
 }
-header.global.slim {
-  border-bottom: 1px solid gray;
-  background-color: #aaa;
+.window-wrap header.global.slim {
+  border-bottom: 1px solid #aaa;
+  background-color: #fff!important;
 }
-.container>div {
+.content-wrapper .container>div {
   border: 1px solid #aaa;
 }
 
