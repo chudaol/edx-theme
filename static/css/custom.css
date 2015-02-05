@@ -26,6 +26,11 @@ input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disab
   border: 1px solid #aaa;
 }
 
+header.global.slim .nav-global {
+  display: inline;
+  font-size: 0.9em;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,500,600,700&subset=latin,cyrillic);
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
