@@ -22,7 +22,7 @@ input[type="submit"]:hover:not(:disabled), input[type="button"]:hover:not(:disab
   border-bottom: 1px solid #aaa;
   background-color: #fff!important;
 }
-.content-wrapper .container>div {
+.content-wrapper .container>div:not(.contribution) {
   border: 1px solid #aaa;
 }
 
