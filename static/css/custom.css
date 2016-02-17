@@ -918,3 +918,7 @@ a {
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
+/* No vertical lines in MathJax */
+nobr > .math > span {
+  border-left-width: 0 !important;
+} 
